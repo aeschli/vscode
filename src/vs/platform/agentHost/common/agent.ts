@@ -371,6 +371,7 @@ export interface IAgentCustomizationInstallationRequest {
 export interface IAgentCustomizationMarketplaceSearchRequest {
 	readonly query: string;
 	readonly mediaType?: string;
+	readonly canvasDiscovery?: boolean;
 	readonly limit: number;
 	readonly cursor?: string;
 }
